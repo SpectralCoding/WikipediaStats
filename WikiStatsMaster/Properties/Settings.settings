@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WikiStatsMaster.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RabbitMQHostname" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.1.211</Value>
+    </Setting>
+    <Setting Name="RabbitMQPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5672</Value>
+    </Setting>
+    <Setting Name="RabbitMQUsername" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">wikipediastats</Value>
+    </Setting>
+    <Setting Name="RabbitMQPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">wikipediastats</Value>
+    </Setting>
+    <Setting Name="RabbitMQQueue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">posts</Value>
+    </Setting>
+    <Setting Name="WikiExportPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">F:\Bulk\wiki\1m.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
